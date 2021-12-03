@@ -640,6 +640,11 @@ aside ul li:hover::before , aside ul li:hover::after{
     margin: auto;
     color: #727272;
 }
+@media (max-width:676px){
+    .featurs .featurs_container{
+        grid-template-columns: repeat(auto-fill,minmax(100% , 1fr));
+    }
+}
 /*-----testimonials----*/
 .testimonials{
     padding-top: 50px;
